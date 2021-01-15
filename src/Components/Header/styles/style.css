@@ -1,0 +1,140 @@
+.Header {
+  width: 100%;
+  height: 12vh;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-shadow: 0 4px 4px -4px rgba(0, 0, 0, 0.12);
+          box-shadow: 0 4px 4px -4px rgba(0, 0, 0, 0.12);
+}
+
+.Header .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 86%;
+  margin: auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  align-items: center;
+  height: 15vh;
+}
+
+.Header .container .logo {
+  max-width: 139px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.Header .container .search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 60%;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.Header .container .search .searchBar {
+  border: 1px solid #c7c7cd;
+  width: 60%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 4px;
+}
+
+.Header .container .search .searchBar .icon {
+  margin-left: 8px;
+  font-size: 20px;
+  color: #282828;
+}
+
+.Header .container .search input {
+  margin-left: 8px;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  background-color: transparent;
+}
+
+.Header .container .search button {
+  padding: 12px;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  color: #fff;
+  outline: none;
+  border: none;
+  background-color: #f68b1e;
+  border-radius: 4px;
+  font-size: 0.875rem;
+  margin-left: 8px;
+  font-weight: 530;
+  cursor: pointer;
+}
+
+.Header .container .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.Header .container .nav .navOption {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 8px;
+  font-size: 16px;
+}
+
+.Header .container .nav .navOption:hover {
+  color: #f68b1e;
+  cursor: pointer;
+}
+
+.Header .container .nav .navOption a {
+  color: #000;
+}
+
+.Header .container .nav .navOption a:hover {
+  color: #f68b1e;
+  cursor: pointer;
+}
+
+.Header .container .nav .navOption a:link {
+  text-decoration: none;
+}
+/*# sourceMappingURL=style.css.map */

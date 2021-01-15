@@ -1,0 +1,36 @@
+.Product {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: auto;
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.Product p {
+  font-size: 0.875rem;
+}
+
+.Product b {
+  font-size: 1rem;
+}
+
+.Product small {
+  color: #75757a;
+  text-decoration: line-through;
+}
+
+.Product:hover {
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.05);
+          box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.05);
+  -webkit-transform: scale(1.01);
+          transform: scale(1.01);
+}
+/*# sourceMappingURL=style.css.map */

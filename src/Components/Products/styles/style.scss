@@ -1,0 +1,22 @@
+.Product {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: auto;
+  width: 100%;
+  object-fit: contain;
+  p {
+    font-size: 0.875rem;
+  }
+  b {
+    font-size: 1rem;
+  }
+  small {
+    color: #75757a;
+    text-decoration: line-through;
+  }
+  &:hover {
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.05);
+    transform: scale(1.01);
+  }
+}
