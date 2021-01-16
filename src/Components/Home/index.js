@@ -23,7 +23,6 @@ function Home() {
                 <li>Sporting Good</li>
                 <li>Automobile</li>
                 <li>Other categories</li>
-                <li></li>
               </ul>
             </div>
             <div className="banner">
