@@ -3,7 +3,6 @@ import Product from "../Products";
 import "./styles/style.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper.scss";
-import Icon1 from "./svgs/2.svg";
 
 function Home() {
   return (
@@ -13,10 +12,7 @@ function Home() {
           <div className="main">
             <div className="categories">
               <ul>
-                <li>
-                  <img src={Icon1} alt="React Logo" />
-                  Supermarket
-                </li>
+                <li>Supermarket</li>
                 <li>{" Health & Beauty"}</li>
                 <li>{" Home & Office"}</li>
                 <li>{" Phones & Tablets"}</li>
